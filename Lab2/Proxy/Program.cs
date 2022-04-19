@@ -17,9 +17,9 @@ namespace Proxy
         public RealImage(string filename)
         {
             Filename = filename;
-            LoadImageFromDisk();
+            LoadImage();
         }
-        public void LoadImageFromDisk()
+        public void LoadImage()
         {
             Console.WriteLine("Загружаем картинку : " + Filename);
         }
